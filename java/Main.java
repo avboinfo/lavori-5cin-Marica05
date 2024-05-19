@@ -5,8 +5,8 @@ public class Main {
         ArrayList <Thread> myThread = new ArrayList <> ();
         
         for (int i = 0; i < 10; i ++) {
-            HelloWorld chiara = new HelloWorld (i);
-            myThread.add (new Thread (chiara));
+            HelloWorld saluto = new HelloWorld (i);
+            myThread.add (new Thread (saluto));
         }
 
         for (int i = 0; i < 10; i ++) {
